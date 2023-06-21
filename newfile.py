@@ -1,3 +1,10 @@
+import streamlit as st
+from instaloader import Instaloader, Profile
+
+
+
+
+
 def main():
     st.title("Instagram Statistics")
     username = st.text_input("Enter Instagram username:")
